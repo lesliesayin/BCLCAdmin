@@ -21,13 +21,18 @@ public class UserDAO {
 	public User getUserByUsername(final String username) {
 		RowMapper<User> mapper = new RowMapper<User>() {
 			@Override
-			public User mapRow(ResultSet rs, int rowNum) throws SQLException {
-				User user = new User();
-				user.setId(rs.getString("id"));
-				user.setUsername(rs.getString("username"));
-				user.setPassword(rs.getString("password"));
-				user.setType(rs.getString("type"));
-				return user;
+			public User mapRow(ResultSet rs, int rowNum) {
+				try {
+					User user = new User();
+					user.setId(rs.getString("id"));
+					user.setUsername(rs.getString("username"));
+					user.setPassword(rs.getString("password"));
+					user.setType(rs.getString("type"));
+					return user;
+				} catch (SQLException e) {
+					// using created custom exception DataAccessException to avoid throwing SQLexception on method signature for maintainability
+					throw new DataAccessException("Having Trouble getting user by username", e);
+				}
 			}
 		};
 

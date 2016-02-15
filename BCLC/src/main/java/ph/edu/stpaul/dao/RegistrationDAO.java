@@ -22,15 +22,20 @@ public class RegistrationDAO {
 	public List<Registration> getRegistrations(final String schoolYear, final String filter, final int start, final int length) {
 		RowMapper<Registration> mapper = new RowMapper<Registration>() {
 			@Override
-			public Registration mapRow(ResultSet rs, int rowNum) throws SQLException {
-				Registration registration = new Registration(rs.getString("student_id"));
-				registration.setId(rs.getString("id"));
-				registration.setSchoolYear(rs.getString("school_year"));
-				registration.setFirstName(rs.getString("first_name"));
-				registration.setMiddleName(rs.getString("middle_name"));
-				registration.setLastName(rs.getString("last_name"));
-				registration.setAddress(rs.getString("address"));
-				return registration;
+			public Registration mapRow(ResultSet rs, int rowNum) {
+				try {
+					Registration registration = new Registration(rs.getString("student_id"));
+					registration.setId(rs.getString("id"));
+					registration.setSchoolYear(rs.getString("school_year"));
+					registration.setFirstName(rs.getString("first_name"));
+					registration.setMiddleName(rs.getString("middle_name"));
+					registration.setLastName(rs.getString("last_name"));
+					registration.setAddress(rs.getString("address"));
+					return registration;
+				} catch (SQLException e) {
+					// using created custom exception DataAccessException to avoid throwing SQLexception on method signature for maintainability
+					throw new DataAccessException("Having Trouble getting registrations", e);
+				}
 			}
 		};
 		
