@@ -1,0 +1,15 @@
+ph\edu\stpaul\controller\RegistrationController.class
+ph\edu\stpaul\controller\PaymentsController.class
+ph\edu\stpaul\beanrepository\BeanRepository.class
+ph\edu\stpaul\domain\Registration.class
+ph\edu\stpaul\service\AuthenticationService.class
+ph\edu\stpaul\domain\User.class
+ph\edu\stpaul\util\CryptoUtil.class
+ph\edu\stpaul\dao\RegistrationDAO$1.class
+ph\edu\stpaul\service\RegistrationService.class
+ph\edu\stpaul\controller\HomeController.class
+ph\edu\stpaul\filter\SessionFilter.class
+ph\edu\stpaul\controller\LoginController.class
+ph\edu\stpaul\dao\UserDAO.class
+ph\edu\stpaul\dao\RegistrationDAO.class
+ph\edu\stpaul\dao\UserDAO$1.class

@@ -1,0 +1,126 @@
+@CHARSET "UTF-8";
+
+body {
+	padding: 80px 0 20px 0;
+}
+
+div {
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #52A8FF;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #52A8FF;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	color: rgba(0, 0, 0, .87);
+	margin: 0;
+	padding: 0;
+}
+
+hr {
+	margin: 0;
+	padding: 0;
+}
+
+.em-navbar {
+	background-color: #FFF;
+	color: #52A8FF;
+}
+
+.em-navbar .em-navbar-nav li a {
+	background-color: #FFF;
+	color: #52A8FF;
+}
+
+.em-navbar .em-navbar-nav li a:focus, 
+.em-navbar .em-navbar-nav li a:hover,
+.em-navbar .em-navbar-nav li.active a, 
+.em-navbar .em-navbar-nav li.active a:focus, 
+.em-navbar .em-navbar-nav li.active a:hover {
+	background-color: #52A8FF;
+	color: #FFF;
+}
+
+label.school-year-type {
+	padding: 0px 5px 5px 0px;
+}
+
+.bc-table-div {
+	padding: 10px 0 10px 0;
+}
+
+.dataTables_filter {
+	display: none; 
+}
+
+.dataTables_info, 
+.dataTables_paginate {
+	padding-top: 10px !important;
+	color: rgba(0, 0, 0, .67);
+}
+
+.bc-table {
+	width: 100%;
+	border-radius: 10px;
+	overflow:hidden;
+	box-shadow: 0px 1px 5px #DDD;
+}
+
+.bc-table th {
+	padding: 10px;
+	color: #52A8FF;
+	background-color: #E9F1F9;
+	border: 0;
+    border-bottom: 3px solid #B5D7F9 !important;
+    text-transform: uppercase;
+    font-weight: 400;
+	padding: 15px;
+}
+
+.bc-table thead {
+    vertical-align: middle;
+}
+
+.bc-table td {
+	padding: 10px;
+    text-align: left;
+    border-top: 2px solid #ddd;
+	color: #555;
+}
+
+.bc-table tr:nth-child(odd) {
+	background-color: #f9f9f9
+}
+
+.bc-table tr:nth-child(odd):hover {
+	background-color: #f5f5f5
+}
+
+.bc-table tr:nth-child(even) {
+	background-color: #ffffff
+}
+
+.bc-table tr:nth-child(even):hover {
+	background-color: #f5f5f5
+}
+
+th.actions {
+	width: 50px !important;
+}
+
+div.actions {
+	text-align: center;
+	margin: auto;
+}
+
+table.dataTable thead > tr > th {
+    padding-right: 15px;
+}

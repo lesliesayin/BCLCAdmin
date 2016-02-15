@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+
+#alert-box {
+    display: none;
+}
+
+.login-box {
+	margin: 2% auto;
+}
+
+.login-page, .register-page {
+    background-color: #FAFAFA;
+}
+
+.login-box-body {
+    background-color: #FAFAFA;
+    
+}
+
+.btn-primary {
+    background-color: #52A8FF;
+    border: 0;
+}
+
+#alert-box-text {
+	color: #FAFAFA;
+}
