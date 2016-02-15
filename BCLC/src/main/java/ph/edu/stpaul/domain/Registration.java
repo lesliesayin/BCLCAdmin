@@ -63,7 +63,8 @@ public class Registration {
 	}
 
 	public String getStudentId() {
-		return studentId;
+		String studentIdCopy = studentId;
+		return studentIdCopy;
 	}
 
 	public String getFirstName() {
