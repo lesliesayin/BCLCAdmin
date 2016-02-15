@@ -23,10 +23,9 @@ public class RegistrationDAO {
 		RowMapper<Registration> mapper = new RowMapper<Registration>() {
 			@Override
 			public Registration mapRow(ResultSet rs, int rowNum) throws SQLException {
-				Registration registration = new Registration();
+				Registration registration = new Registration(rs.getString("student_id"));
 				registration.setId(rs.getString("id"));
 				registration.setSchoolYear(rs.getString("school_year"));
-				registration.setStudentId(rs.getString("student_id"));
 				registration.setFirstName(rs.getString("first_name"));
 				registration.setMiddleName(rs.getString("middle_name"));
 				registration.setLastName(rs.getString("last_name"));

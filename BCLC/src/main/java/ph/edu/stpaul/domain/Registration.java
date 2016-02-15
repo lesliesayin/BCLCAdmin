@@ -6,7 +6,7 @@ public class Registration {
 	private String id;
 	private String studentType;
 	private String schoolYear;
-	private String studentId;
+	private final String studentId;
 	private String firstName;
 	private String middleName;
 	private String lastName;
@@ -33,6 +33,10 @@ public class Registration {
 	private String schedule;
 	private String startTime;
 	private String endTime;
+	
+	public Registration(String studentNumber) {
+		studentId = studentNumber;
+	}
 
 	public String getId() {
 		return id;
@@ -60,10 +64,6 @@ public class Registration {
 
 	public String getStudentId() {
 		return studentId;
-	}
-
-	public void setStudentId(String studentId) {
-		this.studentId = studentId;
 	}
 
 	public String getFirstName() {

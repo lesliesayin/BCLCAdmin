@@ -1,13 +1,13 @@
-C:\Development\Eclipse\Mars\Workspace\BCLC\BCLC\src\main\java\ph\edu\stpaul\controller\RegistrationController.java
-C:\Development\Eclipse\Mars\Workspace\BCLC\BCLC\src\main\java\ph\edu\stpaul\controller\LoginController.java
-C:\Development\Eclipse\Mars\Workspace\BCLC\BCLC\src\main\java\ph\edu\stpaul\dao\UserDAO.java
-C:\Development\Eclipse\Mars\Workspace\BCLC\BCLC\src\main\java\ph\edu\stpaul\domain\User.java
-C:\Development\Eclipse\Mars\Workspace\BCLC\BCLC\src\main\java\ph\edu\stpaul\controller\PaymentsController.java
-C:\Development\Eclipse\Mars\Workspace\BCLC\BCLC\src\main\java\ph\edu\stpaul\beanrepository\BeanRepository.java
-C:\Development\Eclipse\Mars\Workspace\BCLC\BCLC\src\main\java\ph\edu\stpaul\util\CryptoUtil.java
-C:\Development\Eclipse\Mars\Workspace\BCLC\BCLC\src\main\java\ph\edu\stpaul\domain\Registration.java
-C:\Development\Eclipse\Mars\Workspace\BCLC\BCLC\src\main\java\ph\edu\stpaul\dao\RegistrationDAO.java
-C:\Development\Eclipse\Mars\Workspace\BCLC\BCLC\src\main\java\ph\edu\stpaul\controller\HomeController.java
-C:\Development\Eclipse\Mars\Workspace\BCLC\BCLC\src\main\java\ph\edu\stpaul\service\RegistrationService.java
-C:\Development\Eclipse\Mars\Workspace\BCLC\BCLC\src\main\java\ph\edu\stpaul\service\AuthenticationService.java
-C:\Development\Eclipse\Mars\Workspace\BCLC\BCLC\src\main\java\ph\edu\stpaul\filter\SessionFilter.java
+C:\Users\Nikki Nicholas\git\BCLCAdmin\BCLC\src\main\java\ph\edu\stpaul\controller\RegistrationController.java
+C:\Users\Nikki Nicholas\git\BCLCAdmin\BCLC\src\main\java\ph\edu\stpaul\domain\User.java
+C:\Users\Nikki Nicholas\git\BCLCAdmin\BCLC\src\main\java\ph\edu\stpaul\controller\PaymentsController.java
+C:\Users\Nikki Nicholas\git\BCLCAdmin\BCLC\src\main\java\ph\edu\stpaul\dao\RegistrationDAO.java
+C:\Users\Nikki Nicholas\git\BCLCAdmin\BCLC\src\main\java\ph\edu\stpaul\service\RegistrationService.java
+C:\Users\Nikki Nicholas\git\BCLCAdmin\BCLC\src\main\java\ph\edu\stpaul\domain\Registration.java
+C:\Users\Nikki Nicholas\git\BCLCAdmin\BCLC\src\main\java\ph\edu\stpaul\controller\LoginController.java
+C:\Users\Nikki Nicholas\git\BCLCAdmin\BCLC\src\main\java\ph\edu\stpaul\service\AuthenticationService.java
+C:\Users\Nikki Nicholas\git\BCLCAdmin\BCLC\src\main\java\ph\edu\stpaul\filter\SessionFilter.java
+C:\Users\Nikki Nicholas\git\BCLCAdmin\BCLC\src\main\java\ph\edu\stpaul\beanrepository\BeanRepository.java
+C:\Users\Nikki Nicholas\git\BCLCAdmin\BCLC\src\main\java\ph\edu\stpaul\util\CryptoUtil.java
+C:\Users\Nikki Nicholas\git\BCLCAdmin\BCLC\src\main\java\ph\edu\stpaul\controller\HomeController.java
+C:\Users\Nikki Nicholas\git\BCLCAdmin\BCLC\src\main\java\ph\edu\stpaul\dao\UserDAO.java
