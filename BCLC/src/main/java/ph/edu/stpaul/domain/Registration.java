@@ -3,7 +3,7 @@ package ph.edu.stpaul.domain;
 import java.util.Date;
 
 public class Registration {
-	private String id;
+	private final String id;
 	private String studentType;
 	private String schoolYear;
 	private final String studentId;
@@ -34,16 +34,14 @@ public class Registration {
 	private String startTime;
 	private String endTime;
 	
-	public Registration(String studentNumber) {
+	public Registration(String registrationId, String studentNumber) {
+		id = registrationId;
 		studentId = studentNumber;
 	}
 
 	public String getId() {
-		return id;
-	}
-
-	public void setId(String id) {
-		this.id = id;
+		String idCopy = id;
+		return idCopy;
 	}
 
 	public String getStudentType() {

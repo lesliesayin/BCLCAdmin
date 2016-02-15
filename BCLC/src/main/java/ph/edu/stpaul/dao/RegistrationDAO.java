@@ -24,8 +24,7 @@ public class RegistrationDAO {
 			@Override
 			public Registration mapRow(ResultSet rs, int rowNum) {
 				try {
-					Registration registration = new Registration(rs.getString("student_id"));
-					registration.setId(rs.getString("id"));
+					Registration registration = new Registration(rs.getString("id"), rs.getString("student_id"));
 					registration.setSchoolYear(rs.getString("school_year"));
 					registration.setFirstName(rs.getString("first_name"));
 					registration.setMiddleName(rs.getString("middle_name"));
