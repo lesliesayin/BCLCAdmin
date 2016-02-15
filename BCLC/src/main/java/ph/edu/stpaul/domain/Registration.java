@@ -44,6 +44,11 @@ public class Registration {
 		return idCopy;
 	}
 
+	public String getStudentId() {
+		String studentIdCopy = studentId;
+		return studentIdCopy;
+	}
+
 	public String getStudentType() {
 		return studentType;
 	}
@@ -58,11 +63,6 @@ public class Registration {
 
 	public void setSchoolYear(String schoolYear) {
 		this.schoolYear = schoolYear;
-	}
-
-	public String getStudentId() {
-		String studentIdCopy = studentId;
-		return studentIdCopy;
 	}
 
 	public String getFirstName() {
@@ -124,7 +124,6 @@ public class Registration {
 	public String getAddress() {
 		return address;
 	}
-
 
 	public void setAddress(String address) {
 		this.address = address;

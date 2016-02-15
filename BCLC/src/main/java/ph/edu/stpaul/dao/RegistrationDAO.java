@@ -54,9 +54,8 @@ public class RegistrationDAO {
 	}
 
 	public void updateRegistration(Registration registration) {
-		String SQL = "update registrations set value student_type = ?, school_year = ? where id = ?";
-		jdbcTemplate.update(SQL, registration.getStudentType(), registration.getSchoolYear(), registration.getId());
-	}
+		String SQL = "update registrations set student_type = ?, school_year = ?, first_name = ?, middle_name = ?, last_name = ?, birth_date = ?, gender = ?, religion = ?, birth_place = ?, address = ?, father_first_name = ?, father_middle_name = ?, father_last_name = ?, father_occupation = ?,  father_landline_number = ?,  father_mobile_number = ?, mother_first_name = ?, mother_middle_name = ?, mother_last_name = ?, mother_occupation = ?,  mother_landline_number = ?,  mother_mobile_number = ?, level = ?, level = ?, cluster = ?, adviser = ?, schedule = ?, start_time = ?, end_time = ?  where id = ?";
+		jdbcTemplate.update(SQL, registration.getStudentType(), registration.getSchoolYear(), registration.getFirstName(), registration.getMiddleName(), registration.getLastName(), registration.getBirthDate(), registration.getGender(), registration.getReligion(), registration.getBirthPlace(), registration.getAddress(), registration.getFatherFirstName(), registration.getFatherMiddleName(),  registration.getFatherLastName(), registration.getFatherOccupation(), registration.getFatherLandlineNumber(), registration.getFatherMobileNumber(), registration.getMotherFirstName(), registration.getMotherMiddleName(),  registration.getMotherLastName(), registration.getMotherOccupation(), registration.getMotherLandlineNumber(), registration.getMotherMobileNumber(),  registration.getCluster(), registration.getAdviser(), registration.getSchedule(), registration.getStartTime(), registration.getEndTime(), registration.getId());}
 
 	public void deleteRegistration(Registration registration) {
 		String SQL = "delete registrations where id = ?";
